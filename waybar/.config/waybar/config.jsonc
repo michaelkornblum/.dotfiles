@@ -1,5 +1,6 @@
 {
     "layer": "top",
+    "margin-top": 13,
     "modules-left": [
         "custom/launcher",
         "clock",
@@ -136,5 +137,5 @@
             "balanced": "",
             "power-saver": ""
         }
-    }R
+    }
 }
