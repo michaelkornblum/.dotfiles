@@ -12,7 +12,6 @@
     ],
     "modules-right": [
         "custom/pacman",
-        "custom/weather",
         "pulseaudio",
         "battery",
         "network",
@@ -72,13 +71,6 @@
         "exec-if": "exit 0", // always run; consider advanced run conditions
         "on-click": "kitty --hold'sudo pacman -Syu'; pkill -SIGRTMIN+8 waybar", // update system
         "signal": 8
-    },
-    "custom/weather": {
-        "exec": "${HOME}/.config/waybar/scripts/get_weather.sh Berlin+Germany",
-        "return-type": "json",
-        "format": "{}",
-        "tooltip": true,
-        "interval": 3600
     },
     "pulseaudio": {
         "format": "{volume}% {icon}",
